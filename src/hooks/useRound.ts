@@ -8,6 +8,7 @@ type State = Round | null;
 export type Action =
   | {
       type: 'start';
+      courseId: string;
       players: Player[];
       mode: ScoreMode;
       layout: RoundLayout;
@@ -34,6 +35,7 @@ function reducer(state: State, action: Action): State {
     return {
       id: newId(),
       startedAt: new Date().toISOString(),
+      courseId: action.courseId,
       mode: action.mode,
       layout: action.layout,
       allowance: action.allowance,

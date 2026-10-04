@@ -1,0 +1,288 @@
+{
+  "club": "Golfclub Dreibäumen e.V.",
+  "short": "Dreibäumen",
+  "ort": "Hückeswagen",
+  "website": "https://dreibaeumen.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz",
+      "par": 71,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 4,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 368,
+            "blau": 346,
+            "rot": 322,
+            "orange": 303
+          }
+        },
+        {
+          "nr": 2,
+          "par": 3,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 182,
+            "blau": 171,
+            "rot": 160,
+            "orange": 151
+          }
+        },
+        {
+          "nr": 3,
+          "par": 4,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 364,
+            "blau": 342,
+            "rot": 320,
+            "orange": 301
+          }
+        },
+        {
+          "nr": 4,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 107,
+            "blau": 102,
+            "rot": 95,
+            "orange": 90
+          }
+        },
+        {
+          "nr": 5,
+          "par": 5,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 484,
+            "blau": 456,
+            "rot": 425,
+            "orange": 401
+          }
+        },
+        {
+          "nr": 6,
+          "par": 4,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 391,
+            "blau": 366,
+            "rot": 342,
+            "orange": 321
+          }
+        },
+        {
+          "nr": 7,
+          "par": 4,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 286,
+            "blau": 276,
+            "rot": 256,
+            "orange": 240
+          }
+        },
+        {
+          "nr": 8,
+          "par": 3,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 182,
+            "blau": 172,
+            "rot": 160,
+            "orange": 151
+          }
+        },
+        {
+          "nr": 9,
+          "par": 5,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 470,
+            "blau": 428,
+            "rot": 414,
+            "orange": 378
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 381,
+            "blau": 375,
+            "rot": 356,
+            "orange": 347
+          }
+        },
+        {
+          "nr": 11,
+          "par": 4,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 290,
+            "blau": 273,
+            "rot": 254,
+            "orange": 242
+          }
+        },
+        {
+          "nr": 12,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 119,
+            "blau": 119,
+            "rot": 108,
+            "orange": 108
+          }
+        },
+        {
+          "nr": 13,
+          "par": 5,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 445,
+            "blau": 420,
+            "rot": 394,
+            "orange": 371
+          }
+        },
+        {
+          "nr": 14,
+          "par": 4,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 298,
+            "blau": 275,
+            "rot": 260,
+            "orange": 242
+          }
+        },
+        {
+          "nr": 15,
+          "par": 4,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 403,
+            "blau": 382,
+            "rot": 357,
+            "orange": 337
+          }
+        },
+        {
+          "nr": 16,
+          "par": 4,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 359,
+            "blau": 338,
+            "rot": 316,
+            "orange": 297
+          }
+        },
+        {
+          "nr": 17,
+          "par": 3,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 203,
+            "blau": 184,
+            "rot": 180,
+            "orange": 162
+          }
+        },
+        {
+          "nr": 18,
+          "par": 5,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 548,
+            "blau": 518,
+            "rot": 470,
+            "orange": 436
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "par": 71,
+          "cr": 71.2,
+          "slope": 132
+        },
+        {
+          "tee": "blau",
+          "gender": "H",
+          "par": 69,
+          "cr": 69.4,
+          "slope": 124
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "par": 71,
+          "cr": 73.0,
+          "slope": 131
+        },
+        {
+          "tee": "orange",
+          "gender": "D",
+          "par": 69,
+          "cr": 71.0,
+          "slope": 125
+        },
+        {
+          "tee": "blau",
+          "gender": "D",
+          "par": 71,
+          "cr": 75.6,
+          "slope": 134
+        },
+        {
+          "tee": "rot",
+          "gender": "H",
+          "par": 69,
+          "cr": 67.7,
+          "slope": 119
+        },
+        {
+          "tee": "orange",
+          "gender": "H",
+          "par": 68,
+          "cr": 65.9,
+          "slope": 116
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://dreibaeumen.de/platz/bahnen/",
+    "https://dreibaeumen.de/platz/scorekarte/",
+    "https://www.1golf.eu/club/golfclub-dreibaeumen-ev/scorekarte/"
+  ],
+  "notes": "Bahnen 9 und 13 sind auf der Clubseite als 'Par 5/4' angegeben: Par 5 von Gelb (Herren) und für Damen (Par 71), Par 4 für Herren von Blau/Rot (Par 69). Im Feld par der Bahnen steht 5; der jeweilige Platz-Par steht in ratings[].par. Abschlagfarben aus den Gesamtlängen bei 1golf.eu abgeleitet (Gelb 5880, Blau 5543, Rot 5189, Orange 4878 m; die Summen der Clubwerte passen genau); auf der Clubseite heißen sie nur 'Herren lang/kurz, Damen lang/kurz'. CR/Slope Gelb-H, Blau-H, Rot-D, Orange-D von der Clubseite (Stand 19.09.2025), stimmen mit 1golf überein. Blau-D, Rot-H und Orange-H nur von 1golf.eu (ohne Datum); bei Orange-H nennt 1golf Par 68, das ist mit den Bahn-Pars nicht erklärbar, also unsicher. Kein eigener Damen-SI gefunden. Scorekarten-PDF (scorecard2024.pdf) ist nur als Bild vorhanden und nicht lesbar.",
+  "confidence": "hoch"
+}

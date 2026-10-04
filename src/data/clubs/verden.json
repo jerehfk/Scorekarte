@@ -1,0 +1,257 @@
+{
+  "club": "Golf-Club Verden e.V.",
+  "short": "Verden",
+  "ort": "Verden-Walle",
+  "website": "https://www.gc-verden.de/",
+  "courses": [
+    {
+      "name": "Kurse A+C",
+      "par": 72,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 4,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 324,
+            "rot": 286
+          }
+        },
+        {
+          "nr": 2,
+          "par": 5,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 468,
+            "rot": 424
+          }
+        },
+        {
+          "nr": 3,
+          "par": 4,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 333,
+            "rot": 291
+          }
+        },
+        {
+          "nr": 4,
+          "par": 3,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 167,
+            "rot": 148
+          }
+        },
+        {
+          "nr": 5,
+          "par": 4,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 342,
+            "rot": 310
+          }
+        },
+        {
+          "nr": 6,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 150,
+            "rot": 130
+          }
+        },
+        {
+          "nr": 7,
+          "par": 5,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 453,
+            "rot": 386
+          }
+        },
+        {
+          "nr": 8,
+          "par": 3,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 135,
+            "rot": 123
+          }
+        },
+        {
+          "nr": 9,
+          "par": 4,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 306,
+            "rot": 270
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 348,
+            "rot": 301
+          }
+        },
+        {
+          "nr": 11,
+          "par": 5,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 482,
+            "rot": 422
+          }
+        },
+        {
+          "nr": 12,
+          "par": 4,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 311,
+            "rot": 277
+          }
+        },
+        {
+          "nr": 13,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 172,
+            "rot": 158
+          }
+        },
+        {
+          "nr": 14,
+          "par": 5,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 439,
+            "rot": 402
+          }
+        },
+        {
+          "nr": 15,
+          "par": 5,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 510,
+            "rot": 453
+          }
+        },
+        {
+          "nr": 16,
+          "par": 4,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 335,
+            "rot": 290
+          }
+        },
+        {
+          "nr": 17,
+          "par": 3,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 174,
+            "rot": 151
+          }
+        },
+        {
+          "nr": 18,
+          "par": 4,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 395,
+            "rot": 350
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "cr": 71.8,
+          "slope": 132
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "cr": 73.8,
+          "slope": 126
+        }
+      ]
+    },
+    {
+      "name": "Kurse B+C",
+      "par": 73,
+      "holes": [],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "cr": 72.4,
+          "slope": 136
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "cr": 73.6,
+          "slope": 124
+        }
+      ]
+    },
+    {
+      "name": "Kurse A+B",
+      "par": 71,
+      "holes": [],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "cr": 69.5,
+          "slope": 131
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "cr": 70.7,
+          "slope": 122
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.gc-verden.de/golfplaetze/",
+    "https://www.1golf.eu/club/golf-club-verden-ev/scorekarte/",
+    "https://www.golfingrecord.com/golf-scorecard/3bfa33a9-ff59-44ef-ad90-429ff4e12f46",
+    "https://www.golfpass.com/courses/31298-verden-golf-club-a-course/",
+    "https://www.golfpass.com/courses/35452-verden-golf-club-b-course/",
+    "https://www.golfpass.com/courses/35453-verden-golf-club-c-course/",
+    "https://www.hole19golf.com/courses/golf-club-verden"
+  ],
+  "notes": "27-Loch-Anlage aus drei 9-Loch-Kursen: A (Par 35), B (Par 36) und C (Par 37), dazu ein öffentlicher 5-Loch-Kurzplatz (Par 18, nicht erfasst). Die Clubwebsite veröffentlicht keine Scorekarte und keine CR/Slope-Werte. CR/Slope und Gesamtlängen stammen von 1golf, ohne Datum und nur für gelb Herren und rot Damen. Längen laut 1golf: AC gelb 5886 / rot 5210 m, BC 5933 / 5123 m, AB 5487 / 4725 m. Bahndaten nur für A+C, von golfingrecord ('18 Loch', als A+C erkannt über die Nine-Pars 35/37). Diese Daten wirken älter: Summe gelb 5844 m statt 5886 m, rot 5172 m statt 5210 m, und rot ergibt dort nur Par 68 (vermutlich ein Herren-Rot mit geänderten Pars), während 1golf rot Damen mit Par 72 führt. Die Pars je Bahn gelten daher für gelb. SI je Kombination unsicher, Damen-SI fehlt. Für B+C und A+B fehlen alle Bahndaten (holes leer). Ratings für blau, Herren rot und Damen gelb fehlen.",
+  "confidence": "niedrig"
+}

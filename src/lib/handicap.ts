@@ -9,9 +9,10 @@ export function roundHalfAway(value: number): number {
 /**
  * Course Handicap (die "Vorgabe" für diesen Platz und Abschlag):
  *   HCPI × (Slope / 113) + (CR − Par)
+ * Par ist das des Ratings; manche Abschläge spielen ein kürzeres Par.
  */
 export function courseHandicap(hcpi: number, tee: Tee): number {
-  return roundHalfAway(hcpi * (tee.slope / 113) + (tee.cr - COURSE.par));
+  return roundHalfAway(hcpi * (tee.slope / 113) + (tee.cr - (tee.par ?? COURSE.par)));
 }
 
 export function playerCourseHandicap(player: Player): number {

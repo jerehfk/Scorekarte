@@ -1,0 +1,218 @@
+{
+  "club": "Golfclub Schwarze Heide Bottrop-Kirchhellen e.V.",
+  "short": "Schwarze Heide",
+  "ort": "Bottrop",
+  "website": "https://www.gc-schwarze-heide.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz",
+      "par": 72,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 5,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 477,
+            "rot": 397
+          }
+        },
+        {
+          "nr": 2,
+          "par": 4,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 322,
+            "rot": 278
+          }
+        },
+        {
+          "nr": 3,
+          "par": 3,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 165,
+            "rot": 128
+          }
+        },
+        {
+          "nr": 4,
+          "par": 4,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 314,
+            "rot": 285
+          }
+        },
+        {
+          "nr": 5,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 158,
+            "rot": 142
+          }
+        },
+        {
+          "nr": 6,
+          "par": 5,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 505,
+            "rot": 444
+          }
+        },
+        {
+          "nr": 7,
+          "par": 3,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 179,
+            "rot": 151
+          }
+        },
+        {
+          "nr": 8,
+          "par": 4,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 392,
+            "rot": 333
+          }
+        },
+        {
+          "nr": 9,
+          "par": 5,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 476,
+            "rot": 416
+          }
+        },
+        {
+          "nr": 10,
+          "par": 5,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 484,
+            "rot": 443
+          }
+        },
+        {
+          "nr": 11,
+          "par": 3,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 214,
+            "rot": 170
+          }
+        },
+        {
+          "nr": 12,
+          "par": 4,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 357,
+            "rot": 323
+          }
+        },
+        {
+          "nr": 13,
+          "par": 4,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 349,
+            "rot": 304
+          }
+        },
+        {
+          "nr": 14,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 119,
+            "rot": 101
+          }
+        },
+        {
+          "nr": 15,
+          "par": 4,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 394,
+            "rot": 346
+          }
+        },
+        {
+          "nr": 16,
+          "par": 5,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 453,
+            "rot": 407
+          }
+        },
+        {
+          "nr": 17,
+          "par": 3,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 143,
+            "rot": 128
+          }
+        },
+        {
+          "nr": 18,
+          "par": 5,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 508,
+            "rot": 451
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "par": 72,
+          "cr": 72.2,
+          "slope": 131
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "par": 72,
+          "cr": 73.8,
+          "slope": 131
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.gc-schwarze-heide.de/spielvorgabe",
+    "https://www.gc-schwarze-heide.de/platzuebersicht",
+    "https://www.1golf.eu/club/golf-club-schwarze-heide-bottrop-kirchhellen-ev/scorekarte/",
+    "https://www.allsquaregolf.com/golf-courses/germany/golf-club-schwarze-heide-bottrop-kirchhellen-e-v"
+  ],
+  "notes": "Scorekarte und Spielvorgabentabelle des Clubs gibt es nur als Bild bzw. Bild-PDF; sie waren nicht lesbar. Pars, SI und Längen stammen deshalb von allsquaregolf.com. Dort sind die Längen als 'Yards' beschriftet, die Summen (6009/5247) passen aber zu den Metern bei 1golf (Gelb 5979 m, Rot 5259 m); eingetragen als Meter. Die Abweichung von 30 m bzw. 12 m deutet auf einen älteren Stand der Längen hin. Pars passen zu Par 72 und zur Clubseite (Bahn 1 Par 5). CR/Slope von 1golf.eu (ohne Datum); allsquare nennt ältere Werte (Gelb-H 71.7/130, Rot-D 73.2/127). Andere Abschläge (Weiss/Blau, Rot-H) und ein eigener Damen-SI fehlen. hole19golf zeigt einen veralteten Datensatz mit Par 69; nicht verwendet. Zusätzlich gibt es einen 6-Loch-Kurzplatz (Par 3 je Bahn lt. 1golf), nicht erfasst.",
+  "confidence": "mittel"
+}

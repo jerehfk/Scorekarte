@@ -1,0 +1,251 @@
+{
+  "club": "Golf-Club Oberneuland e.V.",
+  "short": "Oberneuland",
+  "ort": "Bremen",
+  "website": "https://www.gc-oberneuland.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz (A-Kurs 1-9 + B-Kurs 10-18)",
+      "par": 71,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 5,
+          "si": 3,
+          "siDamen": 3,
+          "lengths": {
+            "gelb": 471,
+            "rot": 421
+          },
+          "parDamen": 5
+        },
+        {
+          "nr": 2,
+          "par": 4,
+          "si": 5,
+          "siDamen": 9,
+          "lengths": {
+            "gelb": 362,
+            "rot": 311
+          },
+          "parDamen": 4
+        },
+        {
+          "nr": 3,
+          "par": 4,
+          "si": 11,
+          "siDamen": 15,
+          "lengths": {
+            "gelb": 319,
+            "rot": 282
+          },
+          "parDamen": 4
+        },
+        {
+          "nr": 4,
+          "par": 4,
+          "si": 1,
+          "siDamen": 5,
+          "lengths": {
+            "gelb": 354,
+            "rot": 306
+          },
+          "parDamen": 4
+        },
+        {
+          "nr": 5,
+          "par": 3,
+          "si": 17,
+          "siDamen": 17,
+          "lengths": {
+            "gelb": 146,
+            "rot": 118
+          },
+          "parDamen": 3
+        },
+        {
+          "nr": 6,
+          "par": 5,
+          "si": 13,
+          "siDamen": 1,
+          "lengths": {
+            "gelb": 435,
+            "rot": 422
+          },
+          "parDamen": 5
+        },
+        {
+          "nr": 7,
+          "par": 5,
+          "si": 9,
+          "siDamen": 7,
+          "lengths": {
+            "gelb": 440,
+            "rot": 402
+          },
+          "parDamen": 5
+        },
+        {
+          "nr": 8,
+          "par": 4,
+          "si": 7,
+          "siDamen": 11,
+          "lengths": {
+            "gelb": 340,
+            "rot": 302
+          },
+          "parDamen": 4
+        },
+        {
+          "nr": 9,
+          "par": 3,
+          "si": 15,
+          "siDamen": 13,
+          "lengths": {
+            "gelb": 190,
+            "rot": 165
+          },
+          "parDamen": 3
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 2,
+          "siDamen": 4,
+          "lengths": {
+            "gelb": 356,
+            "rot": 318
+          },
+          "parDamen": 4
+        },
+        {
+          "nr": 11,
+          "par": 5,
+          "si": 6,
+          "siDamen": 2,
+          "lengths": {
+            "gelb": 458,
+            "rot": 404
+          },
+          "parDamen": 5
+        },
+        {
+          "nr": 12,
+          "par": 4,
+          "si": 10,
+          "siDamen": 10,
+          "lengths": {
+            "gelb": 349,
+            "rot": 310
+          },
+          "parDamen": 4
+        },
+        {
+          "nr": 13,
+          "par": 4,
+          "si": 12,
+          "siDamen": 16,
+          "lengths": {
+            "gelb": 277,
+            "rot": 252
+          },
+          "parDamen": 4
+        },
+        {
+          "nr": 14,
+          "par": 3,
+          "si": 16,
+          "siDamen": 8,
+          "lengths": {
+            "gelb": 158,
+            "rot": 136
+          },
+          "parDamen": 3
+        },
+        {
+          "nr": 15,
+          "par": 4,
+          "si": 8,
+          "siDamen": 18,
+          "lengths": {
+            "gelb": 356,
+            "rot": 308
+          },
+          "parDamen": 4
+        },
+        {
+          "nr": 16,
+          "par": 3,
+          "si": 18,
+          "siDamen": 14,
+          "lengths": {
+            "gelb": 130,
+            "rot": 107
+          },
+          "parDamen": 3
+        },
+        {
+          "nr": 17,
+          "par": 3,
+          "si": 14,
+          "siDamen": 12,
+          "lengths": {
+            "gelb": 151,
+            "rot": 136
+          },
+          "parDamen": 3
+        },
+        {
+          "nr": 18,
+          "par": 4,
+          "si": 4,
+          "siDamen": 6,
+          "lengths": {
+            "gelb": 408,
+            "rot": 370
+          },
+          "parDamen": 5
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "par": 71,
+          "cr": 71.4,
+          "slope": 130
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "par": 72,
+          "cr": 73.0,
+          "slope": 129
+        },
+        {
+          "tee": "rot",
+          "gender": "H",
+          "par": 70,
+          "cr": 67.5,
+          "slope": 122
+        },
+        {
+          "tee": "gelb",
+          "gender": "D",
+          "par": 73,
+          "cr": 77.5,
+          "slope": 139
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.gc-oberneuland.de/der-platz/",
+    "https://www.gc-oberneuland.de/wp-content/uploads/2025/01/Scorekarte-1.pdf",
+    "https://www.1golf.eu/club/golf-club-oberneuland-ev/scorekarte/",
+    "https://www.golfpass.com/courses/31359-oberneuland-golf-club/scorecard-and-layout",
+    "https://www.hole19golf.com/courses/golf-club-oberneuland"
+  ],
+  "notes": "Pars, Vorgaben (Herren und Damen getrennt) und Längen aus der Club-Scorekarte (PDF 01/2025). Die Karte nennt nur 'Herren' (gelb) und 'Damen' (rot), die Farben kommen von 1golf.eu/hole19. Die Bahnen heißen auf dem Platz A1-A9 und B10-B18. Bahn 18 ist Par 4 für Herren und Par 5 für Damen (Feld parDamen), daher Herren Par 71 und Damen Par 72. Damen-Länge B12 (310 m) ist im PDF-Text verrutscht; sie wurde über die Summe 2341 und die Reihenfolge rekonstruiert. Das Herren-SI bestätigt hole19. CR/Slope stehen nicht auf der Club-Seite. Gelb H 71,4/130 und rot D 73,0/129 kommen von 1golf.eu, rot H 67,5/122 (Par 70) und gelb D 77,5/139 (Par 73) von golfpass.com. Alle ohne Datum, daher unsicher. golfpass zeigt außerdem ein älteres, abweichendes SI (verworfen). Kein 9-Loch-Platz erfasst.",
+  "confidence": "mittel"
+}

@@ -1,0 +1,283 @@
+{
+  "club": "Golfclub Gifhorn e.V.",
+  "short": "Gifhorn",
+  "ort": "Gifhorn",
+  "website": "https://golfclub-gifhorn.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz",
+      "par": 72,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 5,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 451,
+            "blau": null,
+            "rot": 400,
+            "orange": 333
+          }
+        },
+        {
+          "nr": 2,
+          "par": 4,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 338,
+            "blau": null,
+            "rot": 300,
+            "orange": 260
+          }
+        },
+        {
+          "nr": 3,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 142,
+            "blau": null,
+            "rot": 130,
+            "orange": 130
+          }
+        },
+        {
+          "nr": 4,
+          "par": 4,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 353,
+            "blau": null,
+            "rot": 313,
+            "orange": 278
+          }
+        },
+        {
+          "nr": 5,
+          "par": 4,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 391,
+            "blau": null,
+            "rot": 348,
+            "orange": 302
+          }
+        },
+        {
+          "nr": 6,
+          "par": 3,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 187,
+            "blau": null,
+            "rot": 166,
+            "orange": 138
+          }
+        },
+        {
+          "nr": 7,
+          "par": 5,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 516,
+            "blau": null,
+            "rot": 460,
+            "orange": 434
+          }
+        },
+        {
+          "nr": 8,
+          "par": 4,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 311,
+            "blau": null,
+            "rot": 275,
+            "orange": 236
+          }
+        },
+        {
+          "nr": 9,
+          "par": 4,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 343,
+            "blau": null,
+            "rot": 302,
+            "orange": 253
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 335,
+            "blau": null,
+            "rot": 306,
+            "orange": 275
+          }
+        },
+        {
+          "nr": 11,
+          "par": 5,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 454,
+            "blau": null,
+            "rot": 401,
+            "orange": 348
+          }
+        },
+        {
+          "nr": 12,
+          "par": 3,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 186,
+            "blau": null,
+            "rot": 167,
+            "orange": 138
+          }
+        },
+        {
+          "nr": 13,
+          "par": 4,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 369,
+            "blau": null,
+            "rot": 330,
+            "orange": 302
+          }
+        },
+        {
+          "nr": 14,
+          "par": 4,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 299,
+            "blau": null,
+            "rot": 263,
+            "orange": 229
+          }
+        },
+        {
+          "nr": 15,
+          "par": 5,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 439,
+            "blau": null,
+            "rot": 394,
+            "orange": 350
+          }
+        },
+        {
+          "nr": 16,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 149,
+            "blau": null,
+            "rot": 133,
+            "orange": 133
+          }
+        },
+        {
+          "nr": 17,
+          "par": 4,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 329,
+            "blau": null,
+            "rot": 287,
+            "orange": 254
+          }
+        },
+        {
+          "nr": 18,
+          "par": 4,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 310,
+            "blau": null,
+            "rot": 259,
+            "orange": 244
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "cr": 72.0,
+          "slope": 129
+        },
+        {
+          "tee": "blau",
+          "gender": "H",
+          "cr": 69.7,
+          "slope": 123
+        },
+        {
+          "tee": "rot",
+          "gender": "H",
+          "cr": 68.8,
+          "slope": 116
+        },
+        {
+          "tee": "orange",
+          "gender": "H",
+          "cr": 65.1,
+          "slope": 111
+        },
+        {
+          "tee": "blau",
+          "gender": "D",
+          "cr": 76.0,
+          "slope": 125
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "cr": 74.2,
+          "slope": 125
+        },
+        {
+          "tee": "orange",
+          "gender": "D",
+          "cr": 70.4,
+          "slope": 122
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://golfclub-gifhorn.de/platz/scorekarte-vorgabe-platzregeln/",
+    "https://golfclub-gifhorn.de/wp-content/uploads/2025/07/Vorgabetabelle-06_2025-1-18.pdf",
+    "https://golfclub-gifhorn.de/unser-golfplatz/bahn-1/ (bis bahn-9) und https://golfclub-gifhorn.de/portfolio-item/bahn-10/ (bis bahn-18)",
+    "https://www.golfingrecord.com/golf-scorecard/2508d767-fb42-4cc6-84ce-ab0645d87ced",
+    "https://www.1golf.eu/club/golfclub-gifhorn-ev/scorekarte/"
+  ],
+  "notes": "CR/Slope aus der Vorgabetabelle des Clubs (Stand 06/2025). Par und HCP je Bahn sowie gelbe Längen von den Bahnseiten des Clubs. Die SI gilt für alle Abschläge gleich (laut golfingrecord). Abschlag orange (H und D) ist Par 69: die Bahnen 1, 11 und 15 sind dort Par 4 statt Par 5. Längen rot und orange von golfingrecord, die Summen passen (5234 / 4637 m). Längen von Abschlag blau fehlen (null). Bahn 13 gelb: Bahnseite des Clubs nennt 360 m, golfingrecord 369 m. 369 übernommen, weil die Summe dann die Gesamtlänge 5902 m ergibt (1golf). Widerspruch: golfingrecord und 1golf führen rot Herren als Par 69 mit älteren CR/Slope, die Vorgabetabelle des Clubs nennt Par 72 (Club übernommen). Die Scorekarte des Clubs (04.2025) gibt es nur als Bild (nicht lesbar), daher konnten Damen-SI und Längen blau nicht geprüft werden.",
+  "confidence": "mittel"
+}

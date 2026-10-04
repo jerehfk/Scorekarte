@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import { COURSE, selectCourse } from './data/course';
 import { useRound } from './hooks/useRound';
+import { useSticky } from './hooks/useSticky';
 import FinishScreen from './screens/FinishScreen';
 import HoleScreen from './screens/HoleScreen';
 import PlatzbelegungScreen from './screens/PlatzbelegungScreen';
@@ -13,20 +15,25 @@ export default function App() {
   const [round, dispatch] = useRound();
   const [cardOpen, setCardOpen] = useState(false);
   const [tab, setTab] = useState<AppTab>('scorecard');
+  // Zuletzt gewählter Club für die nächste Runde; eine laufende Runde bleibt
+  // auf ihrem Platz.
+  const [courseId, setCourseId] = useSticky('scorekarte.courseId', 'velbert');
+  selectCourse(round ? round.courseId : courseId);
 
   if (!round) {
-    if (tab === 'status') {
+    if (tab === 'status' && COURSE.platzinfo) {
       return <PlatzstatusScreen active={tab} onNavigate={setTab} />;
     }
-    if (tab === 'belegung') {
+    if (tab === 'belegung' && COURSE.platzinfo) {
       return <PlatzbelegungScreen active={tab} onNavigate={setTab} />;
     }
     return (
       <SetupScreen
         active={tab}
         onNavigate={setTab}
+        onCourseChange={setCourseId}
         onStart={(players, mode, layout, allowance) =>
-          dispatch({ type: 'start', players, mode, layout, allowance })
+          dispatch({ type: 'start', courseId: COURSE.id, players, mode, layout, allowance })
         }
       />
     );

@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import ClubPicker from '../components/ClubPicker';
 import Segmented from '../components/Segmented';
 import TopMenu, { type AppTab } from '../components/TopMenu';
+import { COURSES } from '../data/clubs';
 import { COURSE, holeRange, parOf, teeById } from '../data/course';
 import {
   courseHandicap,
@@ -26,6 +28,7 @@ interface Props {
   ) => void;
   active: AppTab;
   onNavigate: (tab: AppTab) => void;
+  onCourseChange: (id: string) => void;
 }
 
 const ALLOWANCE_HINT: Record<Allowance, string> = {
@@ -39,13 +42,18 @@ function newDraft(index: number): Draft {
     id: globalThis.crypto?.randomUUID?.() ?? `p${Date.now()}${index}`,
     name: '',
     hcpi: '',
-    teeId: 'gelb',
+    teeId: COURSE.tees[0].id,
   };
 }
 
 const MAX_PLAYERS = 6;
 
-export default function SetupScreen({ onStart, active, onNavigate }: Props) {
+export default function SetupScreen({
+  onStart,
+  active,
+  onNavigate,
+  onCourseChange,
+}: Props) {
   const [drafts, setDrafts] = useState<Draft[]>(() => [newDraft(0)]);
   const [mode, setMode] = useState<ScoreMode>('stableford');
   const [layout, setLayout] = useState<RoundLayout>('full');
@@ -53,6 +61,13 @@ export default function SetupScreen({ onStart, active, onNavigate }: Props) {
 
   const patch = (id: string, changes: Partial<Draft>) =>
     setDrafts((ds) => ds.map((d) => (d.id === id ? { ...d, ...changes } : d)));
+
+  const changeCourse = (id: string) => {
+    onCourseChange(id);
+    // Abschläge heißen auf jedem Platz anders – auf den ersten des neuen Platzes setzen.
+    const tee = COURSES.find((c) => c.id === id)?.tees[0].id;
+    if (tee) setDrafts((ds) => ds.map((d) => ({ ...d, teeId: tee })));
+  };
 
   const start = () => {
     const players: Player[] = drafts.map((d, i) => ({
@@ -66,16 +81,22 @@ export default function SetupScreen({ onStart, active, onNavigate }: Props) {
 
   return (
     <div className="safe-top-lg mx-auto flex min-h-dvh max-w-md flex-col gap-6 px-5 pb-8">
-      <TopMenu active={active} onNavigate={onNavigate} />
+      <TopMenu active={active} onNavigate={onNavigate} platzinfo={!!COURSE.platzinfo} />
 
       <header className="pr-14">
         <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-turf-400">
           Digitale Scorekarte
         </p>
-        <h1 className="mt-2 font-display text-3xl leading-tight">{COURSE.club}</h1>
+        <ClubPicker course={COURSE} onChange={changeCourse} />
         <p className="mt-2 text-sm text-sand-300/60">
           18 Löcher · Par {COURSE.par} · Out {COURSE.parOut} / In {COURSE.parIn}
         </p>
+        {COURSE.ungeprueft && (
+          <p className="mt-2 text-[11px] text-flag-400">
+            Platzdaten ungeprüft – Par, Vorgaben und Längen bitte mit der Scorekarte des Clubs
+            vergleichen.
+          </p>
+        )}
       </header>
 
       <section className="flex flex-col gap-3">
@@ -117,8 +138,8 @@ export default function SetupScreen({ onStart, active, onNavigate }: Props) {
                 )}
               </div>
 
-              <div className="flex items-center gap-3">
-                <label className="flex flex-1 items-center gap-2 rounded-xl border border-edge bg-deep-850 px-3 py-2">
+              <div className="flex flex-wrap items-center gap-3">
+                <label className="flex min-w-32 flex-1 items-center gap-2 rounded-xl border border-edge bg-deep-850 px-3 py-2">
                   <span className="text-[11px] font-semibold uppercase tracking-wider text-sand-300/50">
                     HCPI
                   </span>
@@ -131,7 +152,7 @@ export default function SetupScreen({ onStart, active, onNavigate }: Props) {
                   />
                 </label>
 
-                <div className="flex gap-1 rounded-xl border border-edge bg-deep-850 p-1">
+                <div className="ml-auto flex flex-wrap gap-1 rounded-xl border border-edge bg-deep-850 p-1">
                   {COURSE.tees.map((t) => (
                     <button
                       key={t.id}
