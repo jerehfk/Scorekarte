@@ -3,7 +3,7 @@ import ConfirmDialog from '../components/ConfirmDialog';
 import HoleImage from '../components/HoleImage';
 import HoleStrokes from '../components/HoleStrokes';
 import ScoreStepper from '../components/ScoreStepper';
-import { COURSE, holeByNr, holeRange, holesOf } from '../data/course';
+import { COURSE, holeByNr, holeRange, holesOf, teeById } from '../data/course';
 import type { Action } from '../hooks/useRound';
 import { useSticky } from '../hooks/useSticky';
 import { playerPlayingHandicap, strokesOnHole } from '../lib/handicap';
@@ -26,6 +26,15 @@ export default function HoleScreen({ round, dispatch, onOpenCard }: Props) {
   const belegteLoecher = holesOf(round.layout).filter((h) =>
     round.players.some((p) => round.scores[p.id]?.[h.nr - 1] != null),
   ).length;
+  // Längen nur für die Abschlagfarben, von denen in dieser Runde jemand spielt.
+  const farben = [
+    ...new Map(
+      round.players.map((p) => {
+        const t = teeById(p.teeId);
+        return [t.lengthKey ?? t.id, t.hex] as const;
+      }),
+    ),
+  ];
   const headline =
     round.layout === 'back'
       ? `Loch ${round.currentHole} · Back 9`
@@ -97,26 +106,30 @@ export default function HoleScreen({ round, dispatch, onOpenCard }: Props) {
             </div>
           </div>
           <div className="ml-auto flex flex-col items-end gap-1 pb-1">
-            {COURSE.tees.map((t) => (
-              <span key={t.id} className="flex items-center gap-1.5 text-xs text-sand-300/70">
-                <span className="h-2 w-2 rounded-full" style={{ background: t.hex }} />
-                {hole.lengths[t.id]} m
-              </span>
-            ))}
+            {farben.map(([farbe, hex]) =>
+              hole.lengths[farbe] == null ? null : (
+                <span key={farbe} className="flex items-center gap-1.5 text-xs text-sand-300/70">
+                  <span className="h-2 w-2 rounded-full" style={{ background: hex }} />
+                  {hole.lengths[farbe]} m
+                </span>
+              ),
+            )}
           </div>
         </div>
 
-        <div className="flex items-center justify-between">
-          <button
-            type="button"
-            onClick={() => setShowBahn(!showBahn)}
-            className="text-xs font-semibold text-sand-300/50 hover:text-sand-100"
-          >
-            {showBahn ? '▾ Bahn ausblenden' : '▸ Bahn anzeigen'}
-          </button>
-        </div>
+        {COURSE.holeImages && (
+          <div className="flex items-center justify-between">
+            <button
+              type="button"
+              onClick={() => setShowBahn(!showBahn)}
+              className="text-xs font-semibold text-sand-300/50 hover:text-sand-100"
+            >
+              {showBahn ? '▾ Bahn ausblenden' : '▸ Bahn anzeigen'}
+            </button>
+          </div>
+        )}
 
-        {showBahn && <HoleImage holeNr={hole.nr} />}
+        {COURSE.holeImages && showBahn && <HoleImage holeNr={hole.nr} />}
 
         <div className="flex flex-col gap-2.5">
           {round.players.map((player) => {

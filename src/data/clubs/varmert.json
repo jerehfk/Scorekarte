@@ -1,0 +1,224 @@
+{
+  "club": "Golfclub Varmert e.V.",
+  "short": "Varmert",
+  "ort": "Kierspe",
+  "website": "https://www.golfclub-varmert.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz",
+      "par": 72,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 4,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 331,
+            "rot": 294
+          }
+        },
+        {
+          "nr": 2,
+          "par": 4,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 332,
+            "rot": 302
+          }
+        },
+        {
+          "nr": 3,
+          "par": 4,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 370,
+            "rot": 336
+          }
+        },
+        {
+          "nr": 4,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 189,
+            "rot": 155
+          }
+        },
+        {
+          "nr": 5,
+          "par": 5,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 442,
+            "rot": 383
+          }
+        },
+        {
+          "nr": 6,
+          "par": 4,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 374,
+            "rot": 344
+          }
+        },
+        {
+          "nr": 7,
+          "par": 5,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 510,
+            "rot": 452
+          }
+        },
+        {
+          "nr": 8,
+          "par": 5,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 457,
+            "rot": 391
+          }
+        },
+        {
+          "nr": 9,
+          "par": 4,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 273,
+            "rot": 250
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 293,
+            "rot": 258
+          }
+        },
+        {
+          "nr": 11,
+          "par": 3,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 156,
+            "rot": 140
+          }
+        },
+        {
+          "nr": 12,
+          "par": 5,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 478,
+            "rot": 434
+          }
+        },
+        {
+          "nr": 13,
+          "par": 4,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 315,
+            "rot": 285
+          }
+        },
+        {
+          "nr": 14,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 129,
+            "rot": 115
+          }
+        },
+        {
+          "nr": 15,
+          "par": 4,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 265,
+            "rot": 232
+          }
+        },
+        {
+          "nr": 16,
+          "par": 3,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 168,
+            "rot": 149
+          }
+        },
+        {
+          "nr": 17,
+          "par": 4,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 267,
+            "rot": 237
+          }
+        },
+        {
+          "nr": 18,
+          "par": 4,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 334,
+            "rot": 294
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "par": 72,
+          "cr": 70.5,
+          "slope": 131
+        },
+        {
+          "tee": "rot",
+          "gender": "H",
+          "par": 72,
+          "cr": 67.6,
+          "slope": 121
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "par": 72,
+          "cr": 72.8,
+          "slope": 125
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.golfclub-varmert.de/der-platz/",
+    "https://www.golfclub-varmert.de/wp-content/uploads/2025/07/Scorekarte-2020.pdf",
+    "https://www.golfclub-varmert.de/wp-content/uploads/2026/09/Platz_1-18_Herren_und_Damen.pdf"
+  ],
+  "notes": "Bahndaten aus der Scorekarte des Clubs (Scorekarte-2020.pdf). Dort stehen zwei Längenreihen 'Herren' und 'Damen' ohne Farbangabe (Summen 5683 m und 5051 m); sie sind hier als gelb und rot eingetragen, passend zu den Abschlägen in der Spielvorgabentabelle. Die Scorekarte hat nur eine SI-Reihe. CR/Slope aus der Spielvorgabentabelle des Clubs (hochgeladen 09/2026). Zusätzlich gibt es Tabellen für die Schleifen 1-9 und 10-18; ein eigener 9-Loch-Platz existiert nicht. Die Scorekarte ist von 2020: falls Längen seitdem geändert wurden, ist das hier nicht berücksichtigt.",
+  "confidence": "hoch"
+}

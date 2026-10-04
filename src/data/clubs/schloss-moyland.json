@@ -1,0 +1,216 @@
+{
+  "club": "Land-Golf-Club Schloss Moyland e.V.",
+  "short": "Schloss Moyland",
+  "ort": "Bedburg-Hau",
+  "website": "https://www.landgolfclub.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz",
+      "par": 71,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 4,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 284,
+            "rot": 254
+          }
+        },
+        {
+          "nr": 2,
+          "par": 4,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 325,
+            "rot": 283
+          }
+        },
+        {
+          "nr": 3,
+          "par": 5,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 463,
+            "rot": 416
+          }
+        },
+        {
+          "nr": 4,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 119,
+            "rot": 107
+          }
+        },
+        {
+          "nr": 5,
+          "par": 4,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 356,
+            "rot": 322
+          }
+        },
+        {
+          "nr": 6,
+          "par": 4,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 296,
+            "rot": 261
+          }
+        },
+        {
+          "nr": 7,
+          "par": 3,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 170,
+            "rot": 139
+          }
+        },
+        {
+          "nr": 8,
+          "par": 4,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 294,
+            "rot": 242
+          }
+        },
+        {
+          "nr": 9,
+          "par": 3,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 155,
+            "rot": 128
+          }
+        },
+        {
+          "nr": 10,
+          "par": 5,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 487,
+            "rot": 399
+          }
+        },
+        {
+          "nr": 11,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 147,
+            "rot": 117
+          }
+        },
+        {
+          "nr": 12,
+          "par": 4,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 361,
+            "rot": 296
+          }
+        },
+        {
+          "nr": 13,
+          "par": 4,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 256,
+            "rot": 213
+          }
+        },
+        {
+          "nr": 14,
+          "par": 4,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 281,
+            "rot": 234
+          }
+        },
+        {
+          "nr": 15,
+          "par": 5,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 512,
+            "rot": 420
+          }
+        },
+        {
+          "nr": 16,
+          "par": 3,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 193,
+            "rot": 171
+          }
+        },
+        {
+          "nr": 17,
+          "par": 5,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 479,
+            "rot": 423
+          }
+        },
+        {
+          "nr": 18,
+          "par": 4,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 319,
+            "rot": 282
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "cr": 68.8,
+          "slope": 124
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "cr": 69.6,
+          "slope": 123
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.landgolfclub.de/platz/spielbahnen/",
+    "https://www.landgolfclub.de/platz/course-rating/",
+    "https://www.golfingrecord.com/golf-scorecard/192881d6-847b-4181-93ff-daf20d4e0a36",
+    "https://www.1golf.eu/club/land-golf-club-schloss-moyland-ev/"
+  ],
+  "notes": "Par, SI und Längen von der Clubseite 'Spielbahnen' (Spalten Herren/Damen, keine Farbnamen); Zuordnung Herren=gelb, Damen=rot laut golfingrecord.com (gleiche Meterwerte, Summen 5497 m / 4707 m). Ein SI-Satz für beide Geschlechter. CR/SLOPE UNSICHER: Der Club hat im Frühjahr 2026 ein neues Course Rating bekommen, die Tabellen liegen nur als Bilder vor (Rating-1-18_page-0001/0002.png) und konnten nicht gelesen werden. Eingetragen sind ältere Drittquellen-Werte von golfingrecord.com (gelb H 68.8/124, rot D 69.6/123); 1golf.eu nennt 68.7/123 und 69.5/122. Weitere Abschläge (z. B. rot Herren, gelb Damen, orange) und die neuen 2026-Werte fehlen; bitte aus den Bildern auf /platz/course-rating/ nachtragen. Scorekarten-PDF (Download-Manager) war nicht direkt abrufbar.",
+  "confidence": "mittel"
+}

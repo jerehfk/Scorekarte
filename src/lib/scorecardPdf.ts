@@ -11,7 +11,7 @@
  * statt fest zu sein.
  */
 
-import { COURSE, holeRange, holesOf, layoutLabel, parOf, teeById } from '../data/course';
+import { COURSE, courseTitle, holeRange, holesOf, layoutLabel, parOf, teeById } from '../data/course';
 import {
   formatCourseHcp,
   formatHcpi,
@@ -140,7 +140,7 @@ function seite(doc: Doc, round: Round, mode: ScoreMode) {
   doc.setTextColor(...TINTE);
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(15);
-  doc.text(COURSE.club, RAND, 20);
+  doc.text(courseTitle(), RAND, 20);
 
   doc.setFont('helvetica', 'normal');
   doc.setFontSize(9.5);
@@ -294,7 +294,8 @@ export function pdfDateiname(round: Round): string {
   const iso = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(
     d.getDate(),
   ).padStart(2, '0')}`;
-  return `Scorekarte_Gut-Kuhlendahl_${iso}.pdf`;
+  const club = courseTitle().replace(/[^A-Za-z0-9ÄÖÜäöüß]+/g, '-');
+  return `Scorekarte_${club}_${iso}.pdf`;
 }
 
 export async function buildScorecardPdf(

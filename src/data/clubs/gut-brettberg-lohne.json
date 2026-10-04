@@ -1,0 +1,276 @@
+{
+  "club": "Golfclub Gut Brettberg Lohne e.V.",
+  "short": "Gut Brettberg Lohne",
+  "ort": "Lohne (Oldenburg)",
+  "website": "https://www.gc-lohne.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz",
+      "par": 72,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 4,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 380,
+            "blau": 370,
+            "rot": 313,
+            "orange": 304
+          }
+        },
+        {
+          "nr": 2,
+          "par": 3,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 191,
+            "blau": 181,
+            "rot": 158,
+            "orange": 148
+          }
+        },
+        {
+          "nr": 3,
+          "par": 4,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 288,
+            "blau": 278,
+            "rot": 244,
+            "orange": 234
+          }
+        },
+        {
+          "nr": 4,
+          "par": 4,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 375,
+            "blau": 365,
+            "rot": 312,
+            "orange": 302
+          }
+        },
+        {
+          "nr": 5,
+          "par": 4,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 352,
+            "blau": 342,
+            "rot": 288,
+            "orange": 278
+          }
+        },
+        {
+          "nr": 6,
+          "par": 5,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 493,
+            "blau": 483,
+            "rot": 406,
+            "orange": 396
+          }
+        },
+        {
+          "nr": 7,
+          "par": 4,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 384,
+            "blau": 374,
+            "rot": 315,
+            "orange": 305
+          }
+        },
+        {
+          "nr": 8,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 144,
+            "blau": 134,
+            "rot": 117,
+            "orange": 108
+          }
+        },
+        {
+          "nr": 9,
+          "par": 5,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 537,
+            "blau": 527,
+            "rot": 440,
+            "orange": 430
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 371,
+            "blau": 361,
+            "rot": 305,
+            "orange": 295
+          }
+        },
+        {
+          "nr": 11,
+          "par": 4,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 285,
+            "blau": 275,
+            "rot": 235,
+            "orange": 225
+          }
+        },
+        {
+          "nr": 12,
+          "par": 5,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 448,
+            "blau": 439,
+            "rot": 374,
+            "orange": 364
+          }
+        },
+        {
+          "nr": 13,
+          "par": 3,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 149,
+            "blau": 138,
+            "rot": 120,
+            "orange": 114
+          }
+        },
+        {
+          "nr": 14,
+          "par": 4,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 334,
+            "blau": 324,
+            "rot": 277,
+            "orange": 267
+          }
+        },
+        {
+          "nr": 15,
+          "par": 4,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 387,
+            "blau": 377,
+            "rot": 320,
+            "orange": 310
+          }
+        },
+        {
+          "nr": 16,
+          "par": 3,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 146,
+            "blau": 137,
+            "rot": 122,
+            "orange": 112
+          }
+        },
+        {
+          "nr": 17,
+          "par": 4,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 349,
+            "blau": 339,
+            "rot": 286,
+            "orange": 276
+          }
+        },
+        {
+          "nr": 18,
+          "par": 5,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 452,
+            "blau": 442,
+            "rot": 376,
+            "orange": 366
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "par": 72,
+          "cr": 72.7,
+          "slope": 130
+        },
+        {
+          "tee": "blau",
+          "gender": "H",
+          "par": 72,
+          "cr": 71.9,
+          "slope": 126
+        },
+        {
+          "tee": "rot",
+          "gender": "H",
+          "par": 69,
+          "cr": 66.6,
+          "slope": 118
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "par": 72,
+          "cr": 72.7,
+          "slope": 125
+        },
+        {
+          "tee": "orange",
+          "gender": "D",
+          "par": 72,
+          "cr": 71.7,
+          "slope": 121
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://gc-lohne.de/vorgabentabelle/",
+    "https://gc-lohne.de/wp-content/uploads/2026/08/Course_Handicaps_Brettberg_Lohne_18-Loch.pdf",
+    "https://www.golfpass.com/courses/31339-gut-brettberg-lohne-golf-club/scorecard-and-layout",
+    "https://www.hole19golf.com/courses/golfclub-gut-brettberg-lohne",
+    "https://www.1golf.eu/club/golfclub-gut-brettberg-lohne-ev/scorekarte/"
+  ],
+  "notes": "CR/Slope aus der Course-Handicap-Tabelle des Clubs (Stand 27.08.2026). Die Club-Scorekarte (PDF 05/2021) ist nur ein Bild ohne Text und war nicht lesbar. Pars, Herren-SI und Längen kommen daher von golfpass.com (Yards, in Meter umgerechnet und gerundet, ±1 m möglich) und hole19 (blau in Metern). Pars und SI stimmen in beiden Quellen überein, die Summen (gelb 6065, blau 5886, rot 5008, orange 4834 m) passen zu 1golf.eu. Herren rot hat Par 69, ist also auf drei Bahnen niedriger; welche das sind, ist unbekannt (vermutlich die Par 5). Eine Damen-Vorgabenverteilung war nicht verfügbar (siDamen=null). Ältere Werte bei golfpass (gelb 72,9/130 usw.) weichen leicht ab, es gilt die Club-Tabelle 2026. Daneben gibt es 9-Loch-Wertungen 1-9 und 10-18 als Teilplätze des 18-Loch-Platzes (nicht erfasst).",
+  "confidence": "mittel"
+}

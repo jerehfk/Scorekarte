@@ -1,0 +1,229 @@
+{
+  "club": "Golfclub Siegen-Olpe e.V.",
+  "short": "Siegen-Olpe",
+  "ort": "Wenden",
+  "website": "https://www.gcso.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz",
+      "par": 72,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 4,
+          "si": null,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 330,
+            "rot": 304
+          }
+        },
+        {
+          "nr": 2,
+          "par": 5,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 444,
+            "rot": 388
+          }
+        },
+        {
+          "nr": 3,
+          "par": 3,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 179,
+            "rot": 165
+          }
+        },
+        {
+          "nr": 4,
+          "par": 4,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 312,
+            "rot": 274
+          }
+        },
+        {
+          "nr": 5,
+          "par": 5,
+          "si": null,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 500,
+            "rot": 420
+          }
+        },
+        {
+          "nr": 6,
+          "par": 4,
+          "si": null,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 341,
+            "rot": 301
+          }
+        },
+        {
+          "nr": 7,
+          "par": 4,
+          "si": null,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 320,
+            "rot": 284
+          }
+        },
+        {
+          "nr": 8,
+          "par": 5,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 473,
+            "rot": 415
+          }
+        },
+        {
+          "nr": 9,
+          "par": 4,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 354,
+            "rot": 315
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 412,
+            "rot": 367
+          }
+        },
+        {
+          "nr": 11,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 116,
+            "rot": 106
+          }
+        },
+        {
+          "nr": 12,
+          "par": 4,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 378,
+            "rot": 331
+          }
+        },
+        {
+          "nr": 13,
+          "par": 5,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 494,
+            "rot": 436
+          }
+        },
+        {
+          "nr": 14,
+          "par": 4,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 232,
+            "rot": 201
+          }
+        },
+        {
+          "nr": 15,
+          "par": 3,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 148,
+            "rot": 126
+          }
+        },
+        {
+          "nr": 16,
+          "par": 4,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 408,
+            "rot": 346
+          }
+        },
+        {
+          "nr": 17,
+          "par": 4,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 340,
+            "rot": 320
+          }
+        },
+        {
+          "nr": 18,
+          "par": 3,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 156,
+            "rot": 143
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "cr": 72.1,
+          "slope": 130
+        },
+        {
+          "tee": "gelb",
+          "gender": "D",
+          "cr": 78.5,
+          "slope": 134
+        },
+        {
+          "tee": "rot",
+          "gender": "H",
+          "cr": 68.2,
+          "slope": 125
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "cr": 73.7,
+          "slope": 130
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.gcso.de/de/platz/18-loch-platz",
+    "https://backend.gcso.de/de/platz/18-loch-platz",
+    "https://www.golfpass.com/courses/31424-siegen-olpe-golf-club/scorecard-and-layout",
+    "https://www.1golf.eu/club/golf-club-siegen-olpe-ev/",
+    "https://www.golfingrecord.com/golf-scorecard/18c16fb1-ea2e-4670-a9cf-29389435b631"
+  ],
+  "notes": "Website golfclub-siegen-olpe.de leitet auf gcso.de um. Par und Längen (gelb 5937 m, rot 5242 m) aus den Bahndaten der Clubwebsite (Headless-Backend). Die Clubdaten haben Bahn 6 = 341/301 m und Bahn 10 = 412/367 m; golfingrecord hat beide vertauscht, golfpass-Halbsummen bestätigen die Club-Reihenfolge. SI LÜCKENHAFT: Die Clubwebsite nennt HCP 8 (Bahn 1), 7 (Bahn 5), 7 (Bahn 6), 8 (Bahn 7) – doppelte Werte, 6 und 9 fehlen; deshalb si=null für Bahnen 1, 5, 6, 7 (es bleiben die Werte 6, 7, 8, 9 zu verteilen). Drittquellen (golfpass/golfingrecord) haben einen älteren, abweichenden SI-Satz (7,15,11,9,3,1,5,17,13,10,16,4,2,18,12,6,8,14), nicht übernommen. CR: Clubseite nennt nur 'CR 72,1' (5937 m) und 'CR 73,7' (5242 m) ohne Slope; Slopes und die anderen Kombinationen von golfpass.com (gelb H 72.1/130, gelb D 78.5/134 Par 75, rot H 68.2/125 Par 71, rot D 73.7/130), bestätigt durch 1golf.eu (130/130). Laut Club spielt der Platz je nach Abschlag Par 71–75 (gender-/teeabhängiges Par, Bahn-Pars nicht bekannt). Junior-Abschlag (3970 m; H 63.0/94, D 64.6/107 laut golfpass) ohne Bahnlängen, nicht erfasst. Kein eigener 9-Loch-Platz (nur 9-Loch-Runden, Par 37–38). Kein Datum für die Ratings erkennbar.",
+  "confidence": "mittel"
+}

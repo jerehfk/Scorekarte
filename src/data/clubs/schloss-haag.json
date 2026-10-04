@@ -1,0 +1,342 @@
+{
+  "club": "Golfclub Schloss Haag e.V.",
+  "short": "Schloss Haag",
+  "ort": "Geldern",
+  "website": "https://www.gc-schloss-haag.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz",
+      "par": 73,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 4,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 312,
+            "blau": 293,
+            "rot": 274,
+            "orange": 220,
+            "magenta": 220,
+            "gruen": 180
+          }
+        },
+        {
+          "nr": 2,
+          "par": 3,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 176,
+            "blau": 166,
+            "rot": 155,
+            "orange": 155,
+            "magenta": 120,
+            "gruen": 120
+          }
+        },
+        {
+          "nr": 3,
+          "par": 5,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 471,
+            "blau": 447,
+            "rot": 407,
+            "orange": 407,
+            "magenta": 340,
+            "gruen": 340
+          }
+        },
+        {
+          "nr": 4,
+          "par": 4,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 403,
+            "blau": 390,
+            "rot": 360,
+            "orange": 250,
+            "magenta": 250,
+            "gruen": 210
+          }
+        },
+        {
+          "nr": 5,
+          "par": 5,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 521,
+            "blau": 508,
+            "rot": 450,
+            "orange": 450,
+            "magenta": 340,
+            "gruen": 340
+          }
+        },
+        {
+          "nr": 6,
+          "par": 4,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 335,
+            "blau": 320,
+            "rot": 296,
+            "orange": 250,
+            "magenta": 250,
+            "gruen": 180
+          }
+        },
+        {
+          "nr": 7,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 146,
+            "blau": 138,
+            "rot": 130,
+            "orange": 130,
+            "magenta": 80,
+            "gruen": 80
+          }
+        },
+        {
+          "nr": 8,
+          "par": 5,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 460,
+            "blau": 447,
+            "rot": 410,
+            "orange": 360,
+            "magenta": 340,
+            "gruen": 340
+          }
+        },
+        {
+          "nr": 9,
+          "par": 4,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 293,
+            "blau": 276,
+            "rot": 252,
+            "orange": 252,
+            "magenta": 200,
+            "gruen": 200
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 308,
+            "blau": 292,
+            "rot": 273,
+            "orange": 273,
+            "magenta": 180,
+            "gruen": 180
+          }
+        },
+        {
+          "nr": 11,
+          "par": 4,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 373,
+            "blau": 353,
+            "rot": 324,
+            "orange": 260,
+            "magenta": 220,
+            "gruen": 220
+          }
+        },
+        {
+          "nr": 12,
+          "par": 4,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 347,
+            "blau": 321,
+            "rot": 298,
+            "orange": 210,
+            "magenta": 210,
+            "gruen": 180
+          }
+        },
+        {
+          "nr": 13,
+          "par": 4,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 328,
+            "blau": 310,
+            "rot": 281,
+            "orange": 250,
+            "magenta": 220,
+            "gruen": 220
+          }
+        },
+        {
+          "nr": 14,
+          "par": 5,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 464,
+            "blau": 448,
+            "rot": 407,
+            "orange": 380,
+            "magenta": 380,
+            "gruen": 340
+          }
+        },
+        {
+          "nr": 15,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 165,
+            "blau": 154,
+            "rot": 141,
+            "orange": 141,
+            "magenta": 120,
+            "gruen": 120
+          }
+        },
+        {
+          "nr": 16,
+          "par": 4,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 334,
+            "blau": 313,
+            "rot": 298,
+            "orange": 220,
+            "magenta": 220,
+            "gruen": 180
+          }
+        },
+        {
+          "nr": 17,
+          "par": 4,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 362,
+            "blau": 342,
+            "rot": 320,
+            "orange": 250,
+            "magenta": 250,
+            "gruen": 190
+          }
+        },
+        {
+          "nr": 18,
+          "par": 4,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 395,
+            "blau": 377,
+            "rot": 347,
+            "orange": 240,
+            "magenta": 210,
+            "gruen": 210
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "cr": 73.2,
+          "slope": 133
+        },
+        {
+          "tee": "blau",
+          "gender": "H",
+          "cr": 71.5,
+          "slope": 132
+        },
+        {
+          "tee": "rot",
+          "gender": "H",
+          "cr": 68.8,
+          "slope": 124
+        },
+        {
+          "tee": "orange",
+          "gender": "H",
+          "cr": 65.2,
+          "slope": 109
+        },
+        {
+          "tee": "magenta",
+          "gender": "H",
+          "cr": 63.4,
+          "slope": 100
+        },
+        {
+          "tee": "gruen",
+          "gender": "H",
+          "cr": 61.9,
+          "slope": 100
+        },
+        {
+          "tee": "blau",
+          "gender": "D",
+          "cr": 78.0,
+          "slope": 137
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "cr": 75.2,
+          "slope": 128
+        },
+        {
+          "tee": "orange",
+          "gender": "D",
+          "cr": 70.1,
+          "slope": 123
+        },
+        {
+          "tee": "magenta",
+          "gender": "D",
+          "cr": 66.8,
+          "slope": 112
+        },
+        {
+          "tee": "gruen",
+          "gender": "D",
+          "cr": 64.2,
+          "slope": 103
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.gc-schloss-haag.de/wp-content/uploads/2026/05/Scorekarte-SchlossHaag-2026-.pdf",
+    "https://www.gc-schloss-haag.de/course-ratingtabellen/",
+    "https://www.gc-schloss-haag.de/spielbahn-03/",
+    "https://www.gc-schloss-haag.de/spielbahn-18/"
+  ],
+  "notes": "Alle Werte aus der Scorekarte 2026 (PDF, Clubwebsite); CR/Slope gültig ab April 2026 (Course-Rating-Tabellen vom Mai 2026 nur als Bilder, Werte von der Scorekarte übernommen). Abschlag 'magenta' ist eine eigene Farbe auf der Karte. Nur ein HCP-Satz (gleich für Herren und Damen). Widerspruch: Die Scorekarte druckt HCP 4 bei Bahn 3 UND Bahn 18 (HCP 5 fehlt); die Bahnseite spielbahn-03 nennt HCP 5 für Bahn 3, daher si=5 für Bahn 3 übernommen. Gelb ist nur für Herren geratet (kein Damen-CR für Gelb). Die Bahnseiten nutzen noch alte Farbnamen (Weiß/Gelb/Rot statt Gelb/Blau/Rot). Zusätzlich 6-Loch-Kurzplatz (nicht erfasst).",
+  "confidence": "hoch"
+}

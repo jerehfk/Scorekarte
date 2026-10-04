@@ -1,0 +1,220 @@
+{
+  "club": "Golfclub Gut Berge Gevelsberg/Wetter e.V.",
+  "short": "Gut Berge",
+  "ort": "Gevelsberg",
+  "website": "https://www.gutberge.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz",
+      "par": 71,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 5,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 445,
+            "rot": 383
+          }
+        },
+        {
+          "nr": 2,
+          "par": 3,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 121,
+            "rot": 113
+          }
+        },
+        {
+          "nr": 3,
+          "par": 4,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 303,
+            "rot": 252
+          }
+        },
+        {
+          "nr": 4,
+          "par": 4,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 339,
+            "rot": 279
+          }
+        },
+        {
+          "nr": 5,
+          "par": 5,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 422,
+            "rot": 373
+          }
+        },
+        {
+          "nr": 6,
+          "par": 3,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 148,
+            "rot": 136
+          }
+        },
+        {
+          "nr": 7,
+          "par": 4,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 261,
+            "rot": 205
+          }
+        },
+        {
+          "nr": 8,
+          "par": 4,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 369,
+            "rot": 309
+          }
+        },
+        {
+          "nr": 9,
+          "par": 4,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 382,
+            "rot": 316
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 412,
+            "rot": 330
+          }
+        },
+        {
+          "nr": 11,
+          "par": 5,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 452,
+            "rot": 398
+          }
+        },
+        {
+          "nr": 12,
+          "par": 4,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 305,
+            "rot": 263
+          }
+        },
+        {
+          "nr": 13,
+          "par": 3,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 195,
+            "rot": 176
+          }
+        },
+        {
+          "nr": 14,
+          "par": 5,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 433,
+            "rot": 384
+          }
+        },
+        {
+          "nr": 15,
+          "par": 4,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 407,
+            "rot": 326
+          }
+        },
+        {
+          "nr": 16,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 156,
+            "rot": 134
+          }
+        },
+        {
+          "nr": 17,
+          "par": 4,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 268,
+            "rot": 222
+          }
+        },
+        {
+          "nr": 18,
+          "par": 3,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 160,
+            "rot": 160
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "par": 72,
+          "cr": 71.6,
+          "slope": 134
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "par": 72,
+          "cr": 72.6,
+          "slope": 131
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.gutberge.de/spielbahnen/",
+    "https://www.allsquaregolf.com/golf-courses/germany/golfclub-gut-berge-gevelsberg-wetter-e-v",
+    "https://handicap-berechnen.de/golfsportanlage-gut-berge/",
+    "https://offcourse.co/courses/scorecard/golfclub-gut-berge-gevelsberg",
+    "https://18birdies.com/golf-courses/club/80dd4840-86ac-11e4-8c28-020000005b00/golfclub-gut-berge-gevelsberg-wetter",
+    "https://www.1golf.eu/club/golfclub-gut-berge-gevelsberg-wetter-ev/scorekarte/"
+  ],
+  "notes": "Die vorgegebene Seite aufgutberge.de gehört zur Golfanlage; die Clubseite ist gutberge.de. Deren Scorekarte (Course2022_DinA4.pdf) ist ein Bild-PDF und nicht lesbar; pccaddie ist per robots.txt gesperrt. Bahndaten deshalb von allsquaregolf.com (als 'Yards' beschriftet, Summen 5578/4759 passen zu den Metern bei 1golf: Gelb 5574 m, Rot 4762 m; eingetragen als Meter). WIDERSPRUCH beim Par: allsquare und handicap-berechnen.de geben Par 71 an (Bahn 10 Par 4, 412 m); 1golf.eu, 18birdies und hole19 geben Par 72 an (Bahn 10 Par 5). Eingetragen ist Par 71 / Bahn 10 Par 4; bitte beim Club prüfen. Die Clubseite bestätigt Bahn 18 als Par 3 und Bahn 14 als letztes Par 5. Länge Bahn 18 unsicher: Gelb 160 (allsquare), 154 (handicap-berechnen), ca. 159 (18birdies); Rot 160 (allsquare, gleich Gelb, eventuell Platzhalter), 125 (hole19). SI 1-18 nach allsquare, offcourse und 18birdies; hole19 zeigt auf der zweiten Neun einen anderen SI. CR/Slope von 1golf.eu (Par 72, ohne Datum); abweichend: allsquare und handicap-berechnen Gelb-H 71.5/133 (Par 71), allsquare Rot-D 72.1/130 und Rot-H 66.7/121, 18birdies Gelb-H 71.9/131. Kein eigener Damen-SI.",
+  "confidence": "niedrig"
+}

@@ -5,6 +5,8 @@ export type AppTab = 'scorecard' | 'status' | 'belegung';
 interface Props {
   active: AppTab;
   onNavigate: (tab: AppTab) => void;
+  /** Platzstatus und Platzbelegung gibt es nur für Clubs, deren Seite wir lesen. */
+  platzinfo?: boolean;
 }
 
 interface Item {
@@ -64,7 +66,7 @@ const ITEMS: Item[] = [
  * direkt darunter – Icon + Label je Zeile, ohne Untertitel oder Farbflächen,
  * in der normalen Schrift der App.
  */
-export default function TopMenu({ active, onNavigate }: Props) {
+export default function TopMenu({ active, onNavigate, platzinfo = true }: Props) {
   const [open, setOpen] = useState(false);
 
   return (
@@ -88,7 +90,7 @@ export default function TopMenu({ active, onNavigate }: Props) {
           <div className="fixed inset-0 z-30" onClick={() => setOpen(false)} />
           <div className="absolute right-0 top-12 z-40 w-64 overflow-hidden rounded-2xl border border-edge bg-deep-900/95 shadow-2xl backdrop-blur-xl">
             <div className="divide-y divide-edge/60">
-              {ITEMS.map((item) => (
+              {ITEMS.filter((item) => platzinfo || item.tab === 'scorecard').map((item) => (
                 <button
                   key={item.tab}
                   type="button"

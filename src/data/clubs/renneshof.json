@@ -1,0 +1,230 @@
+{
+  "club": "Golfpark Renneshof GmbH",
+  "short": "Renneshof",
+  "ort": "Willich-Anrath",
+  "website": "https://gc-renneshof.de/",
+  "courses": [
+    {
+      "name": "18-Loch-Platz (Platz A+B)",
+      "par": 70,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 4,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 296,
+            "rot": 258
+          }
+        },
+        {
+          "nr": 2,
+          "par": 4,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 308,
+            "rot": 263
+          }
+        },
+        {
+          "nr": 3,
+          "par": 3,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 85,
+            "rot": 85
+          }
+        },
+        {
+          "nr": 4,
+          "par": 5,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 431,
+            "rot": 381
+          }
+        },
+        {
+          "nr": 5,
+          "par": 3,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 125,
+            "rot": 125
+          }
+        },
+        {
+          "nr": 6,
+          "par": 4,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 266,
+            "rot": 227
+          }
+        },
+        {
+          "nr": 7,
+          "par": 4,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 240,
+            "rot": 215
+          }
+        },
+        {
+          "nr": 8,
+          "par": 4,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 240,
+            "rot": 219
+          }
+        },
+        {
+          "nr": 9,
+          "par": 4,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 388,
+            "rot": 359
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 358,
+            "rot": 294
+          }
+        },
+        {
+          "nr": 11,
+          "par": 4,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 305,
+            "rot": 265
+          }
+        },
+        {
+          "nr": 12,
+          "par": 4,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 236,
+            "rot": 217
+          }
+        },
+        {
+          "nr": 13,
+          "par": 4,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 295,
+            "rot": 267
+          }
+        },
+        {
+          "nr": 14,
+          "par": 3,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 87,
+            "rot": 87
+          }
+        },
+        {
+          "nr": 15,
+          "par": 4,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 298,
+            "rot": 269
+          }
+        },
+        {
+          "nr": 16,
+          "par": 4,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 364,
+            "rot": 329
+          }
+        },
+        {
+          "nr": 17,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 82,
+            "rot": 82
+          }
+        },
+        {
+          "nr": 18,
+          "par": 5,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 430,
+            "rot": 360
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "cr": 65.8,
+          "slope": 110
+        },
+        {
+          "tee": "rot",
+          "gender": "H",
+          "cr": 62.9,
+          "slope": 102
+        },
+        {
+          "tee": "gelb",
+          "gender": "D",
+          "cr": 70.7,
+          "slope": 119
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "cr": 67.6,
+          "slope": 111
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://gc-renneshof.de/platz/platzuebersicht/",
+    "https://gc-renneshof.de/wp-content/uploads/2022/12/CR_PlatzAB.pdf",
+    "https://gc-renneshof.de/wp-content/uploads/2026/08/DS-0033501_Faltblatt_Wickel_A6_6Seiter_Druck_Innen.pdf",
+    "https://www.golfpass.com/courses/35877-golf-park-renneshof/scorecard-and-layout",
+    "https://www.1golf.eu/club/golfpark-renneshof-gmbh/",
+    "https://golfhochzehn.de/clubs/golfpark-renneshof-gmbh/"
+  ],
+  "notes": "Bahndaten (Par, HCP, Längen) NUR aus Drittquelle golfpass.com, dort in Yards angegeben und hier in Meter umgerechnet (Summen gelb 4834 m, rot 4302 m; Club/1golf: 4834 m / 4301 m, daher Rundungsabweichungen von 1–2 m je Bahn möglich). Die Club-Scorekarte (Faltblatt 2026) ist ein Grafik-PDF, die Bahnwerte waren nicht lesbar. Ein HCP-Satz für beide Geschlechter angenommen. CR/Slope aus Club-PDF 'CR_PlatzAB' (Course Rating 2024, Platz AB): gelb H 65.8/110 Par 70, rot H 62.9/102 Par 68, gelb D 70.7/119, rot D 67.6/111 Par 70. Widerspruch: Die Scorekarte 2026 druckt 'Gelb CR 65,8/Slope 110', 'Rot CR 67,6/Slope 111' und zusätzlich 'Rot CR 67,1/Slope 112' (Zuordnung unklar, evtl. neueres Rating); golfpass nennt ältere Werte (gelb 65.6/108, rot D 67.0/113). Rot-Herren-Par 68 laut CR-PDF (Bahn-Pars für Rot Herren abweichend, nicht bekannt).",
+  "confidence": "niedrig"
+}

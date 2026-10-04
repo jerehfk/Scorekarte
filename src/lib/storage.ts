@@ -14,6 +14,8 @@ export function loadRound(): Round | null {
     // setzen würde eine laufende Karte still verändern.
     return {
       ...parsed,
+      // Vor der Clubauswahl gab es nur Velbert.
+      courseId: parsed.courseId ?? 'velbert',
       layout: parsed.layout ?? 'full',
       allowance: parsed.allowance ?? 100,
     };

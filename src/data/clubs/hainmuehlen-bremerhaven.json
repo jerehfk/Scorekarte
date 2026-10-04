@@ -1,0 +1,488 @@
+{
+  "club": "Golfclub Hainmühlen-Bremerhaven e.V.",
+  "short": "Hainmühlen-Bremerhaven",
+  "ort": "Geestland (Hainmühlen) / Bremerhaven",
+  "website": "https://www.gchb.de/",
+  "courses": [
+    {
+      "name": "Platz Hainmühlen",
+      "par": 72,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 5,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 442,
+            "blau": null,
+            "rot": 400
+          }
+        },
+        {
+          "nr": 2,
+          "par": 4,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 295,
+            "blau": null,
+            "rot": 269
+          }
+        },
+        {
+          "nr": 3,
+          "par": 4,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 333,
+            "blau": null,
+            "rot": 297
+          }
+        },
+        {
+          "nr": 4,
+          "par": 4,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 329,
+            "blau": null,
+            "rot": 290
+          }
+        },
+        {
+          "nr": 5,
+          "par": 4,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 385,
+            "blau": null,
+            "rot": 342
+          }
+        },
+        {
+          "nr": 6,
+          "par": 4,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 297,
+            "blau": null,
+            "rot": 263
+          }
+        },
+        {
+          "nr": 7,
+          "par": 3,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 149,
+            "blau": null,
+            "rot": 135
+          }
+        },
+        {
+          "nr": 8,
+          "par": 5,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 432,
+            "blau": null,
+            "rot": 378
+          }
+        },
+        {
+          "nr": 9,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 128,
+            "blau": null,
+            "rot": 113
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 366,
+            "blau": null,
+            "rot": 324
+          }
+        },
+        {
+          "nr": 11,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 146,
+            "blau": null,
+            "rot": 129
+          }
+        },
+        {
+          "nr": 12,
+          "par": 4,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 396,
+            "blau": null,
+            "rot": 349
+          }
+        },
+        {
+          "nr": 13,
+          "par": 4,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 356,
+            "blau": null,
+            "rot": 312
+          }
+        },
+        {
+          "nr": 14,
+          "par": 5,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 540,
+            "blau": null,
+            "rot": 475
+          }
+        },
+        {
+          "nr": 15,
+          "par": 4,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 390,
+            "blau": null,
+            "rot": 340
+          }
+        },
+        {
+          "nr": 16,
+          "par": 3,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 191,
+            "blau": null,
+            "rot": 166
+          }
+        },
+        {
+          "nr": 17,
+          "par": 5,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 489,
+            "blau": null,
+            "rot": 432
+          }
+        },
+        {
+          "nr": 18,
+          "par": 4,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 311,
+            "blau": null,
+            "rot": 279
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "cr": 72.1,
+          "slope": 129
+        },
+        {
+          "tee": "blau",
+          "gender": "H",
+          "cr": 69.9,
+          "slope": 126
+        },
+        {
+          "tee": "rot",
+          "gender": "H",
+          "cr": 68.5,
+          "slope": 123
+        },
+        {
+          "tee": "blau",
+          "gender": "D",
+          "cr": 76.0,
+          "slope": 133
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "cr": 74.2,
+          "slope": 130
+        }
+      ]
+    },
+    {
+      "name": "Platz Bremerhaven",
+      "par": 66,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 5,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 400,
+            "rot": null
+          }
+        },
+        {
+          "nr": 2,
+          "par": 4,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 231,
+            "rot": null
+          }
+        },
+        {
+          "nr": 3,
+          "par": 3,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 97,
+            "rot": null
+          }
+        },
+        {
+          "nr": 4,
+          "par": 4,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 301,
+            "rot": null
+          }
+        },
+        {
+          "nr": 5,
+          "par": 3,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 106,
+            "rot": null
+          }
+        },
+        {
+          "nr": 6,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 92,
+            "rot": null
+          }
+        },
+        {
+          "nr": 7,
+          "par": 3,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 118,
+            "rot": null
+          }
+        },
+        {
+          "nr": 8,
+          "par": 4,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 270,
+            "rot": null
+          }
+        },
+        {
+          "nr": 9,
+          "par": 3,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 147,
+            "rot": null
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 234,
+            "rot": null
+          }
+        },
+        {
+          "nr": 11,
+          "par": 3,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 147,
+            "rot": null
+          }
+        },
+        {
+          "nr": 12,
+          "par": 5,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 435,
+            "rot": null
+          }
+        },
+        {
+          "nr": 13,
+          "par": 3,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 149,
+            "rot": null
+          }
+        },
+        {
+          "nr": 14,
+          "par": 4,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 269,
+            "rot": null
+          }
+        },
+        {
+          "nr": 15,
+          "par": 4,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 255,
+            "rot": null
+          }
+        },
+        {
+          "nr": 16,
+          "par": 3,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 184,
+            "rot": null
+          }
+        },
+        {
+          "nr": 17,
+          "par": 5,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 416,
+            "rot": null
+          }
+        },
+        {
+          "nr": 18,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": null,
+            "blau": 141,
+            "rot": null
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "cr": 65.3,
+          "slope": 114
+        },
+        {
+          "tee": "blau",
+          "gender": "H",
+          "cr": 63.9,
+          "slope": 107
+        },
+        {
+          "tee": "blau",
+          "gender": "D",
+          "cr": 66.4,
+          "slope": 117
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "cr": 65.3,
+          "slope": 110
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.gchb.de/fuer-gaeste/18-loch-platz-hainmuehlen/",
+    "https://www.gchb.de/wp-content/uploads/2025/05/RT-Hainmuehlen-2025.pdf",
+    "https://www.gchb.de/wp-content/uploads/2025/05/Birdiebook-Hainmuehlen.pdf",
+    "https://www.gchb.de/fuer-gaeste/18-loch-platz-bremerhaven/",
+    "https://www.gchb.de/wp-content/uploads/2025/05/RT-Bremerhaven-2025.pdf",
+    "https://www.hole19golf.com/courses/golf-gut-hainmuhlen",
+    "https://www.golfpass.com/courses/31310-gut-hainmuehlen-golf-club/",
+    "https://www.hole19golf.com/courses/golfclub-bremerhaven",
+    "https://www.1golf.eu/club/golfclub-hainmuehlen-bremerhaven-e-v-standort-hainmuehlen/scorekarte/",
+    "https://www.1golf.eu/club/golfclub-hainmuehlen-bremerhaven-e-v-standort-bremerhaven/scorekarte/"
+  ],
+  "notes": "Die angegebene Domain golf-hainmuehlen.de war nicht erreichbar (Zertifikatsfehler). Der Club nutzt www.gchb.de. CR/Slope beider Plätze aus den Rating-PDFs des Clubs (gültig ab 19.05.2025). Hainmühlen: Par und Längen gelb/rot aus dem Birdiebook des Clubs. Dort sind die Farben nicht benannt, wurden aber über die Summen 5975 m (gelb) und 5293 m (rot) zugeordnet. SI von hole19 und golfpass (beide gleich). Damen-SI unbekannt (null). Längen blau fehlen. Rot Herren hat Par 70 (Front Nine Par 34). Vermutlich sind die Bahnen 1 und 8 dort Par 4, das ist nicht bestätigt. Bremerhaven: Par, SI und Längen nur für Abschlag blau (Summe 3992 m, passt zu 1golf) von hole19. Längen gelb/rot fehlen, Gesamtlängen laut 1golf: gelb 4396 m, rot 3694 m. 1golf nennt für Bremerhaven ältere CR-Werte (z. B. gelb 65.7/114), übernommen sind die Werte des Clubs. Der Birdiebook-Flipbook für Bremerhaven war nicht lesbar. 9-Loch-Wertungen (A/B je Platz) gibt es im Rating-PDF, sie sind nicht erfasst. In Hainmühlen gibt es zusätzlich einen öffentlichen 3-Loch-Platz.",
+  "confidence": "mittel"
+}

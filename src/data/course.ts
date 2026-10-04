@@ -1,47 +1,31 @@
 import type { Course, RoundLayout } from '../types';
+import { COURSES } from './clubs';
 
 /**
- * Golfclub Velbert – Gut Kuhlendahl, Par 70.
- *
- * Par, Vorgabenverteilung (HCP) und Längen stammen 1:1 aus dem Birdiebook des Clubs.
- * Course Rating und Slope stehen auf der Clubseite unter "Die Spielbahnen":
- * Herren 137 / CR 71,8, Damen 131 / CR 73,4 – hier als Gelb bzw. Rot geführt.
- * Die dort genannte Gesamtlänge von 5.608 m deckt sich mit der Summe der
- * Gelb-Längen unten, was die Zuordnung bestätigt.
+ * Der gerade aktive Platz. `selectCourse` tauscht ihn aus; dank ES-Modul-Live-
+ * Bindings sehen alle Importe von `COURSE`, `OUT_HOLES` und `IN_HOLES` danach
+ * den neuen Platz. App.tsx ruft `selectCourse` vor dem Rendern der Screens auf.
  */
-export const COURSE: Course = {
-  club: 'Golfclub Velbert – Gut Kuhlendahl',
-  par: 70,
-  parOut: 35,
-  parIn: 35,
-  tees: [
-    { id: 'gelb', label: 'Gelb', hex: '#facc15', cr: 71.8, slope: 137 },
-    { id: 'rot', label: 'Rot', hex: '#ef4444', cr: 73.4, slope: 131 },
-  ],
-  holes: [
-    { nr: 1, par: 4, si: 5, lengths: { gelb: 306, rot: 274 } },
-    { nr: 2, par: 4, si: 1, lengths: { gelb: 376, rot: 333 } },
-    { nr: 3, par: 3, si: 13, lengths: { gelb: 189, rot: 166 } },
-    { nr: 4, par: 4, si: 17, lengths: { gelb: 330, rot: 291 } },
-    { nr: 5, par: 4, si: 11, lengths: { gelb: 367, rot: 324 } },
-    { nr: 6, par: 5, si: 7, lengths: { gelb: 445, rot: 391 } },
-    { nr: 7, par: 4, si: 9, lengths: { gelb: 339, rot: 300 } },
-    { nr: 8, par: 3, si: 15, lengths: { gelb: 150, rot: 133 } },
-    { nr: 9, par: 4, si: 3, lengths: { gelb: 343, rot: 303 } },
-    { nr: 10, par: 4, si: 2, lengths: { gelb: 370, rot: 327 } },
-    { nr: 11, par: 3, si: 8, lengths: { gelb: 164, rot: 148 } },
-    { nr: 12, par: 4, si: 6, lengths: { gelb: 321, rot: 283 } },
-    { nr: 13, par: 5, si: 14, lengths: { gelb: 462, rot: 409 } },
-    { nr: 14, par: 3, si: 18, lengths: { gelb: 127, rot: 109 } },
-    { nr: 15, par: 4, si: 4, lengths: { gelb: 378, rot: 310 } },
-    { nr: 16, par: 3, si: 16, lengths: { gelb: 148, rot: 131 } },
-    { nr: 17, par: 4, si: 10, lengths: { gelb: 316, rot: 279 } },
-    { nr: 18, par: 5, si: 12, lengths: { gelb: 477, rot: 419 } },
-  ],
-};
+export let COURSE: Course = COURSES[0];
+export let OUT_HOLES = COURSE.holes.slice(0, 9);
+export let IN_HOLES = COURSE.holes.slice(9);
 
-export const OUT_HOLES = COURSE.holes.slice(0, 9);
-export const IN_HOLES = COURSE.holes.slice(9);
+export function courseById(id: string | undefined): Course {
+  return COURSES.find((c) => c.id === id) ?? COURSES[0];
+}
+
+export function selectCourse(id: string | undefined): void {
+  const next = courseById(id);
+  if (next === COURSE) return;
+  COURSE = next;
+  OUT_HOLES = COURSE.holes.slice(0, 9);
+  IN_HOLES = COURSE.holes.slice(9);
+}
+
+/** Club und ggf. Platz in einer Zeile, z. B. für Überschriften und PDF. */
+export function courseTitle(course: Course = COURSE): string {
+  return course.platz ? `${course.club} · ${course.platz}` : course.club;
+}
 
 export function teeById(id: string) {
   return COURSE.tees.find((t) => t.id === id) ?? COURSE.tees[0];

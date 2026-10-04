@@ -1,0 +1,243 @@
+{
+  "club": "Golfclub Thülsfelder Talsperre e.V.",
+  "short": "Thülsfelder Talsperre",
+  "ort": "Garrel",
+  "website": "https://www.gc-thuelsfelde.de/",
+  "courses": [
+    {
+      "name": "18-Loch Meisterschaftsplatz",
+      "par": 72,
+      "holes": [
+        {
+          "nr": 1,
+          "par": 3,
+          "si": 15,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 184,
+            "blau": 184,
+            "rot": 167
+          }
+        },
+        {
+          "nr": 2,
+          "par": 4,
+          "si": 9,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 370,
+            "blau": 331,
+            "rot": 331
+          }
+        },
+        {
+          "nr": 3,
+          "par": 4,
+          "si": 13,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 338,
+            "blau": 338,
+            "rot": 298
+          }
+        },
+        {
+          "nr": 4,
+          "par": 5,
+          "si": 5,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 543,
+            "blau": 474,
+            "rot": 474
+          }
+        },
+        {
+          "nr": 5,
+          "par": 3,
+          "si": 17,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 163,
+            "blau": 163,
+            "rot": 131
+          }
+        },
+        {
+          "nr": 6,
+          "par": 4,
+          "si": 7,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 385,
+            "blau": 342,
+            "rot": 342
+          }
+        },
+        {
+          "nr": 7,
+          "par": 4,
+          "si": 3,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 339,
+            "blau": 339,
+            "rot": 303
+          }
+        },
+        {
+          "nr": 8,
+          "par": 4,
+          "si": 1,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 369,
+            "blau": 323,
+            "rot": 323
+          }
+        },
+        {
+          "nr": 9,
+          "par": 5,
+          "si": 11,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 431,
+            "blau": 431,
+            "rot": 376
+          }
+        },
+        {
+          "nr": 10,
+          "par": 4,
+          "si": 8,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 291,
+            "blau": 291,
+            "rot": 259
+          }
+        },
+        {
+          "nr": 11,
+          "par": 5,
+          "si": 10,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 454,
+            "blau": 454,
+            "rot": 401
+          }
+        },
+        {
+          "nr": 12,
+          "par": 3,
+          "si": 16,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 171,
+            "blau": 171,
+            "rot": 147
+          }
+        },
+        {
+          "nr": 13,
+          "par": 5,
+          "si": 6,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 487,
+            "blau": 430,
+            "rot": 430
+          }
+        },
+        {
+          "nr": 14,
+          "par": 4,
+          "si": 14,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 315,
+            "blau": 315,
+            "rot": 292
+          }
+        },
+        {
+          "nr": 15,
+          "par": 4,
+          "si": 2,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 398,
+            "blau": 353,
+            "rot": 353
+          }
+        },
+        {
+          "nr": 16,
+          "par": 4,
+          "si": 12,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 331,
+            "blau": 331,
+            "rot": 295
+          }
+        },
+        {
+          "nr": 17,
+          "par": 3,
+          "si": 18,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 147,
+            "blau": 147,
+            "rot": 121
+          }
+        },
+        {
+          "nr": 18,
+          "par": 4,
+          "si": 4,
+          "siDamen": null,
+          "lengths": {
+            "gelb": 340,
+            "blau": 340,
+            "rot": 315
+          }
+        }
+      ],
+      "ratings": [
+        {
+          "tee": "gelb",
+          "gender": "H",
+          "par": 72,
+          "cr": 73.2,
+          "slope": 130
+        },
+        {
+          "tee": "blau",
+          "gender": "H",
+          "par": 72,
+          "cr": 71.7,
+          "slope": 128
+        },
+        {
+          "tee": "rot",
+          "gender": "D",
+          "par": 72,
+          "cr": 75.2,
+          "slope": 132
+        }
+      ]
+    }
+  ],
+  "sources": [
+    "https://www.gc-thuelsfelde.de/scorekarte-18.html",
+    "https://www.gc-thuelsfelde.de/Scorekarte_18_Loch_2025-2.pdf",
+    "https://www.1golf.eu/club/golfclub-thuelsfelder-talsperre-ev/scorekarte/",
+    "https://www.golfingrecord.com/golf-scorecard/4489f6e6-2381-410f-920f-5c6879cb9977"
+  ],
+  "notes": "Bahnen, Pars, Vorgabe und Längen aus der Club-Scorekarte (PDF Stand 2025). Die Karte nennt die Spalten nur 'Herren / Herren / Damen'. Die Farben gelb (6056 m), blau (5757 m) und rot (5358 m) kommen von 1golf.eu, dort stimmen auch die CR/Slope-Werte überein. CR/Slope stehen auf der Scorekarte 2025 (H 73,2/130 und 71,7/128, D 75,2/132). Für blau Damen und gelb Damen ist kein Rating angegeben. Es gibt nur eine Vorgabenverteilung, also siDamen=null. Bahn 18: Die HTML-Seite nennt 348 m, PDF und Summen ergeben 340 m (verwendet). Bahn 7 ist Par 4 (339 m; die Summe 36 bestätigt das). golfingrecord hat ältere bzw. fehlerhafte Pars und Ratings (u. a. Par 76) und wurde dafür ignoriert. Daneben gibt es einen 9-Loch-Natur-/Öffentlichkeitsplatz (Par 29, nicht erfasst).",
+  "confidence": "hoch"
+}

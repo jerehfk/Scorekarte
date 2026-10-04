@@ -1,4 +1,5 @@
-export type TeeId = 'gelb' | 'rot';
+/** Abschlag-Kennung innerhalb eines Platzes, z. B. `gelb` oder `rot-d`. */
+export type TeeId = string;
 
 /** Umschaltbare Zählweise. `netto`/`brutto` sind beides Zählspiel. */
 export type ScoreMode = 'stableford' | 'netto' | 'brutto';
@@ -17,7 +18,8 @@ export interface Hole {
   par: number;
   /** Vorgabenverteilung (Stroke Index) 1–18 */
   si: number;
-  lengths: Record<TeeId, number>;
+  /** Länge in Metern je Abschlagfarbe; fehlt eine Farbe, ist sie unbekannt. */
+  lengths: Partial<Record<string, number>>;
 }
 
 export interface Tee {
@@ -29,10 +31,23 @@ export interface Tee {
   cr: number;
   /** Slope Rating */
   slope: number;
+  /** Par, auf das sich das Rating bezieht, falls es vom Platz-Par abweicht */
+  par?: number;
+  /** Schlüssel in `Hole.lengths`, falls er nicht der `id` entspricht */
+  lengthKey?: string;
 }
 
 export interface Course {
+  id: string;
   club: string;
+  /** Platzname bei Clubs mit mehreren 18-Loch-Plätzen */
+  platz?: string;
+  /** Bahngrafiken unter public/holes/ vorhanden */
+  holeImages?: boolean;
+  /** Platzstatus und Platzbelegung werden von der Clubseite gelesen */
+  platzinfo?: boolean;
+  /** Daten nur aus Drittquellen oder widersprüchlich */
+  ungeprueft?: boolean;
   par: number;
   parOut: number;
   parIn: number;
@@ -52,6 +67,8 @@ export type Stage = 'hole' | 'turn' | 'finish';
 
 export interface Round {
   id: string;
+  /** Course.id des gespielten Platzes */
+  courseId: string;
   startedAt: string;
   mode: ScoreMode;
   layout: RoundLayout;

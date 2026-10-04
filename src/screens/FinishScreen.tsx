@@ -4,7 +4,7 @@ import PdfExportDialog from '../components/PdfExportDialog';
 import HandicapSheet from './HandicapSheet';
 import Segmented from '../components/Segmented';
 import Standings from '../components/Standings';
-import { COURSE, holeRange, layoutLabel, parOf } from '../data/course';
+import { courseTitle, holeRange, layoutLabel, parOf } from '../data/course';
 import type { Action } from '../hooks/useRound';
 import { modeUnit, primaryValue, rankPlayers, totalsFor } from '../lib/scoring';
 import type { Round, ScoreMode } from '../types';
@@ -60,7 +60,7 @@ export default function FinishScreen({ round, dispatch, onOpenCard }: Props) {
             )}
           </h1>
           <p className="mt-2 text-sm text-sand-300/55">
-            {COURSE.club} · {layoutLabel(round.layout)} · Par {parOf(round.layout)}
+            {courseTitle()} · {layoutLabel(round.layout)} · Par {parOf(round.layout)}
           </p>
         </div>
 
