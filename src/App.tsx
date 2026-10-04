@@ -31,7 +31,6 @@ export default function App() {
       <SetupScreen
         active={tab}
         onNavigate={setTab}
-        courseId={COURSE.id}
         onCourseChange={setCourseId}
         onStart={(players, mode, layout, allowance) =>
           dispatch({ type: 'start', courseId: COURSE.id, players, mode, layout, allowance })

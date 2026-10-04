@@ -1,8 +1,9 @@
 import { useState } from 'react';
+import ClubPicker from '../components/ClubPicker';
 import Segmented from '../components/Segmented';
 import TopMenu, { type AppTab } from '../components/TopMenu';
 import { COURSES } from '../data/clubs';
-import { COURSE, courseTitle, holeRange, parOf, teeById } from '../data/course';
+import { COURSE, holeRange, parOf, teeById } from '../data/course';
 import {
   courseHandicap,
   formatCourseHcp,
@@ -27,7 +28,6 @@ interface Props {
   ) => void;
   active: AppTab;
   onNavigate: (tab: AppTab) => void;
-  courseId: string;
   onCourseChange: (id: string) => void;
 }
 
@@ -52,7 +52,6 @@ export default function SetupScreen({
   onStart,
   active,
   onNavigate,
-  courseId,
   onCourseChange,
 }: Props) {
   const [drafts, setDrafts] = useState<Draft[]>(() => [newDraft(0)]);
@@ -88,23 +87,7 @@ export default function SetupScreen({
         <p className="text-[11px] font-semibold uppercase tracking-[0.2em] text-turf-400">
           Digitale Scorekarte
         </p>
-        <label className="relative mt-2 block">
-          <span className="sr-only">Golfclub wählen</span>
-          <h1 className="font-display text-3xl leading-tight">
-            {courseTitle()} <span className="text-xl text-sand-300/50">▾</span>
-          </h1>
-          <select
-            value={courseId}
-            onChange={(e) => changeCourse(e.target.value)}
-            className="absolute inset-0 h-full w-full cursor-pointer opacity-0"
-          >
-            {COURSES.map((c) => (
-              <option key={c.id} value={c.id}>
-                {courseTitle(c)}
-              </option>
-            ))}
-          </select>
-        </label>
+        <ClubPicker course={COURSE} onChange={changeCourse} />
         <p className="mt-2 text-sm text-sand-300/60">
           18 Löcher · Par {COURSE.par} · Out {COURSE.parOut} / In {COURSE.parIn}
         </p>
