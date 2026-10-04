@@ -1,6 +1,13 @@
 import { useState } from 'react';
 import { usePlatzstatus } from '../hooks/usePlatzstatus';
-import { SOURCE_URL, WEEKDAYS, activePeriod, type Periode, type Sperrung } from '../lib/platzstatus';
+import {
+  SOURCE_URL,
+  WEEKDAYS,
+  activePeriod,
+  defaultPeriod,
+  type Periode,
+  type Sperrung,
+} from '../lib/platzstatus';
 
 function formatTime(iso: string): string {
   return new Date(iso).toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit' });
@@ -42,13 +49,10 @@ function WeekTable({ period, highlightToday }: { period: Periode; highlightToday
 
   return (
     <div className="overflow-hidden rounded-xl border border-edge">
-      <table className="w-full table-fixed border-collapse text-[11px] leading-snug">
-        <colgroup>
-          <col className="w-[18%]" />
-          <col className="w-[18%]" />
-          <col className="w-[30%]" />
-          <col className="w-[34%]" />
-        </colgroup>
+      {/* Automatisches Spaltenlayout statt fester Prozentbreiten, dazu kurze
+          Wochentage: so passen auch lange Wörter wie "(Kanonenstart)" in ihre
+          Zelle, statt über den Rand zu laufen. */}
+      <table className="w-full border-collapse text-[11px] leading-snug [&_td]:hyphens-auto [&_td]:break-words [&_th]:hyphens-auto">
         <thead>
           <tr className="divide-x divide-edge/40 bg-turf-600">
             <th className="px-2 py-2 text-left font-semibold text-deep-950">Tag</th>
@@ -72,7 +76,9 @@ function WeekTable({ period, highlightToday }: { period: Periode; highlightToday
                     isToday ? 'text-turf-300' : 'text-sand-100'
                   }`}
                 >
-                  {wochentag}
+                  <abbr title={wochentag} className="no-underline">
+                    {wochentag.slice(0, 2)}
+                  </abbr>
                 </td>
                 <td className="px-2 py-2 align-top text-sand-300/80">{sperrung?.abschlaege}</td>
                 <td className="px-2 py-2 align-top text-sand-300/80">{sperrung?.zeiten}</td>
@@ -88,7 +94,7 @@ function WeekTable({ period, highlightToday }: { period: Periode; highlightToday
 
 export default function PlatzbelegungCard() {
   const { data, loading, error, refresh } = usePlatzstatus();
-  const [periodIdx, setPeriodIdx] = useState(0);
+  const [selected, setSelected] = useState<string | null>(null);
 
   return (
     <section className="flex flex-col gap-4">
@@ -126,19 +132,20 @@ export default function PlatzbelegungCard() {
 
       {data && data.periods.length > 0 && (() => {
         const active = activePeriod(data);
-        const period = data.periods[periodIdx] ?? data.periods[0];
+        const period =
+          data.periods.find((p) => p.zeitraum === selected) ?? defaultPeriod(data) ?? data.periods[0];
 
         return (
           <>
             {data.periods.length > 1 && (
               <div className="flex gap-2">
-                {data.periods.map((p, i) => (
+                {data.periods.map((p) => (
                   <button
                     key={p.zeitraum}
                     type="button"
-                    onClick={() => setPeriodIdx(i)}
+                    onClick={() => setSelected(p.zeitraum)}
                     className={`rounded-full border px-3 py-1.5 text-xs font-semibold transition-colors ${
-                      i === periodIdx
+                      p.zeitraum === period.zeitraum
                         ? 'border-turf-500 bg-turf-500 text-deep-950'
                         : 'border-edge text-sand-300/60'
                     }`}
@@ -147,6 +154,20 @@ export default function PlatzbelegungCard() {
                   </button>
                 ))}
               </div>
+            )}
+
+            {!active && (
+              <p className="text-xs text-sand-300/60">
+                Die Club-Website listet die laufende Woche nicht mehr.{' '}
+                <a
+                  href={SOURCE_URL}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-turf-400 underline underline-offset-2"
+                >
+                  Zur Website
+                </a>
+              </p>
             )}
 
             <h3 className="font-display text-2xl leading-tight text-turf-300">

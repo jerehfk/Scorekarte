@@ -156,7 +156,12 @@ export async function fetchPlatzStatus(): Promise<PlatzStatusData> {
   if (!res.ok) throw new Error(`Abruf fehlgeschlagen (${res.status})`);
   const text = await res.text();
   const parsed = parsePlatzStatusText(text);
-  const data: PlatzStatusData = { ...parsed, fetchedAt: new Date().toISOString() };
+  const now = new Date();
+  const data: PlatzStatusData = {
+    ...parsed,
+    periods: mergeRunningPeriods(parsed.periods, loadCache()?.periods ?? [], now),
+    fetchedAt: now.toISOString(),
+  };
   saveCache(data);
   return data;
 }
@@ -192,15 +197,47 @@ function parsePeriodEnd(zeitraum: string): Date | null {
   return new Date(Number(m[6]), Number(m[5]) - 1, Number(m[4]), 23, 59, 59);
 }
 
-/** Die Periode, in der "heute" liegt – oder die erste, falls keine passt. */
-export function activePeriod(data: PlatzStatusData, now = new Date()): Periode | null {
-  if (data.periods.length === 0) return null;
-  const match = data.periods.find((p) => {
-    const start = parsePeriodStart(p.zeitraum);
+/**
+ * Die Club-Website nimmt die laufende Woche schon vor ihrem Ende (z. B. am
+ * Sonntag) aus der Tabelle. Damit "heute" trotzdem sichtbar bleibt, behalten
+ * wir Perioden aus dem Cache, die noch nicht vorbei sind und auf der Seite
+ * fehlen. Ergebnis chronologisch sortiert.
+ */
+function mergeRunningPeriods(fresh: Periode[], cached: Periode[], now: Date): Periode[] {
+  const known = new Set(fresh.map((p) => p.zeitraum));
+  const kept = cached.filter((p) => {
     const end = parsePeriodEnd(p.zeitraum);
-    return start && end && now >= start && now <= end;
+    return !known.has(p.zeitraum) && end !== null && end >= now;
   });
-  return match ?? data.periods[0];
+  return [...kept, ...fresh].sort(
+    (a, b) =>
+      (parsePeriodStart(a.zeitraum)?.getTime() ?? Infinity) -
+      (parsePeriodStart(b.zeitraum)?.getTime() ?? Infinity),
+  );
+}
+
+function containsDate(p: Periode, now: Date): boolean {
+  const start = parsePeriodStart(p.zeitraum);
+  const end = parsePeriodEnd(p.zeitraum);
+  return start !== null && end !== null && now >= start && now <= end;
+}
+
+/** Die Periode, in der "heute" liegt – oder null, wenn keine passt. */
+export function activePeriod(data: PlatzStatusData, now = new Date()): Periode | null {
+  return data.periods.find((p) => containsDate(p, now)) ?? null;
+}
+
+/** Laufende Periode, sonst die nächste kommende, sonst die erste. */
+export function defaultPeriod(data: PlatzStatusData, now = new Date()): Periode | null {
+  return (
+    activePeriod(data, now) ??
+    data.periods.find((p) => {
+      const end = parsePeriodEnd(p.zeitraum);
+      return end !== null && end >= now;
+    }) ??
+    data.periods[0] ??
+    null
+  );
 }
 
 /** Gesperrte Abschläge für heute, falls vorhanden. */
